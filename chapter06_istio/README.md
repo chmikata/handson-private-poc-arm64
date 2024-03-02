@@ -118,7 +118,7 @@ kubectl get pods -n handson -l app=handson -o jsonpath={.items..spec..containers
 ```sh
 # 実行結果
 docker.io/istio/proxyv2:1.19.0
-argoproj/rollouts-demo:blue
+chmikata/rollouts-demo:blue
 
 # Tracingをopentelemetry管理している場合は下記も併せて表示されます。
 ghcr.io/open-telemetry/opentelemetry-go-instrumentation/autoinstrumentation-go:v0.7.0-alpha

@@ -32,7 +32,7 @@ spec:
     spec:
       serviceAccountName: handson-blue
       containers:
-      - image: argoproj/rollouts-demo:blue
+      - image: chmikata/rollouts-demo:blue
         imagePullPolicy: IfNotPresent
         name: handson
         ports:
@@ -95,7 +95,7 @@ spec:
     spec:
       serviceAccountName: handson-yellow
       containers:
-      - image: argoproj/rollouts-demo:yellow
+      - image: chmikata/rollouts-demo:yellow
         imagePullPolicy: IfNotPresent
         name: handson
         ports:

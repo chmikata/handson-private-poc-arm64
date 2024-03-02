@@ -186,7 +186,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 > ```
 
 ## アプリケーションのデプロイ
-次章以降で使用する動作確認用アプリケーションとして、[Argo Rollouts Demo Application](https://github.com/argoproj/rollouts-demo)をデプロイします。
+次章以降で使用する動作確認用アプリケーションとして、[Argo Rollouts Demo Application](https://github.com/chmikata/rollouts-demo)をデプロイします。
 
 ```shell
 kubectl create namespace handson
